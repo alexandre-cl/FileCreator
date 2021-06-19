@@ -13,7 +13,7 @@ namespace Dir_Creator
         static void Main(string[] args)
         {
             string username = Environment.UserName;
-            Console.WriteLine("Bem vindo ao criador de diretórios de Alexandre!");
+            Console.WriteLine("Bem vindo ao criador de diretórios!");
             Console.Write("Digite o nome do diretório que deseja criar: ");
             string dirName = Console.ReadLine();
             string path = @"c:\Users\"+username+@"\Desktop\"+dirName+@"\";
